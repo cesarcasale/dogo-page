@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+}
+
+nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between ;
+    border-bottom: 2px solid grey;
+}
+
+.div1 {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+
+}
+
+.imglogo {
+    max-width: 100%;
+    object-fit: fill;
+}
+
+.div2 {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    padding: 20px;
+}
+
+.already {
+    margin: 0;
+    padding: 4px;
+}
+
+.sign {
+    margin: 0;
+    padding: 4px;
+}
+
+.createaccount {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-width: 900px;
+    height: 40vh;
+    margin: 0;
+    padding-left: 10%;
+    padding-top: 5em;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.enlacesredes {
+    padding: 20px;
+    min-width: 640px;
+}
+
+.botones {
+    width: 320px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.redeslogo {
+    width: 100%;
+    height: 100%;
+}
+
+.withmail {
+    font-size: 30px;
+    padding: 20px;
+}
+
+.formulario {
+    width: 100vw;
+    height: 40vh;
+    margin: 0;
+
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-left: 10%;
+    border: none;
+}
+
+label {
+    font-size: 20px;
+    display: block;
+    padding: 30px;
+}
+
+.negrita{
+    font-weight: bold;
+
+}
+
+.inputsform {
+    width: 500px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 100px;
+}
+
+
+.labelcreatebuttom {
+    padding: 0 0 0 30px;
+}
+
+.createaccountbuttom {
+    width: 300px;
+    height: 3em;
+    border: 2px solid gray;
+    border-radius: 100px;
+    border-style: dashed;
+}
+
+footer {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    padding: 30px;
+    width: 300px;
+    height: 100%;   
+}
+
+ul {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+li {
+    font-size: 18px;
+    padding: 25px;
+    font-weight: bold;
+
+}
+
+.footerlink {
+    text-decoration: none;
+}
